@@ -1,0 +1,35 @@
+/*
+primary: #F8F0E5
+secondary:#A47E3B
+light:#BF9742
+info: #040D12
+*/
+
+
+h1{color: #040D12;
+
+}
+
+p{color: #201a03;
+
+}
+
+.bg-primary{
+    background-color: #A47E3B;
+}
+.bg-secondary{
+    color: #0e0801;
+    background-color: #ecc9a1;
+
+}
+
+.text-center{
+    text-align: center;
+}
+.ancho-200{
+    width: 200px;
+}
+
+body {font-family: 'Poppins', sans-serif;
+
+}

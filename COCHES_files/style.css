@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  /* UTILITARIAS */
+  .container{
+  
+    width: 80%;
+    max-width: 1280 px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* HEADER*/
+  .bg-header{
+    /*background-image: url('coch1.jpg')*/
+    background-image:url('../flex/assets/fotos/coche7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 28.21em;
+   
+
+
+.bg-navbar{
+  padding: 1,5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+.navbar-brand{
+  display: flex;
+  padding-bottom: 1em;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 0.5em
+}
+
+.navbar-nav{
+ 
+  padding: 1em;
+  border-radius: 0.3em;
+  align-items: center;
+}
+  
+.nav-link{
+display: inline-block;
+padding: 0.3em;
+text-decoration: none;
+color: white;
+background-color: rgba(0, 0, 0, 0.63);
+}
+
+.nav-link:hover{
+  background-color: white;
+  color: black;
+  border-radius: 0.3em;
+}
+
+/*CARDS*/
+
+
+.card {
+  width: 300px;
+  background-color: #2a9d8f;
+  color: white;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 1em;
+}
+
+.card-body h5 {
+  font-size: 1.5rem;
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+.card-body p {
+  font-weight: 300;
+}

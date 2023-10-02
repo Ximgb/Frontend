@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  /* UTILITARIAS */
+  .container{
+  
+    width: 80%;
+    max-width: 1280 px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* HEADER*/
+  .bg-header{
+    /*background-image: url('coch1.jpg')*/
+    background-image:url('../flex/assets/fotos/coche7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 28.21em;
+   
+
+
+.bg-navbar{
+  padding: 1,5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.356);
+
+}
+
+.navbar-brand{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 0.5em
+}
+
+.barnav-nav{
+  background-color: 
+  padding: 1em;
+  border-radius: 0.3em;
+}
+  
+.nav-link{
+display: inline-block;
+padding: 0.3em;
+text-decoration: white;
+color: white;
+
+
+
+}
